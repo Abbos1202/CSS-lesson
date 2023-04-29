@@ -1,0 +1,83 @@
+.container {
+  width: 400px;
+  height: 550px;
+  margin: 50px auto;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 20px 1px rgb(0, 0, 0, 0.8);
+  box-shadow: -10px -5px -20px -1px rgb(0, 0, 0, 0.8);
+}
+#icon {
+  display: flex;
+  cursor: pointer;
+  font-size: 60px;
+  padding-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.email {
+  width: 250px;
+  height: 30px;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.email:hover {
+  color: chocolate;
+  border-bottom: 1px solid rgb(197, 90, 13);
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.password {
+  width: 250px;
+  height: 30px;
+  color: black;
+  cursor: pointer;
+  margin-top: 50px;
+  border-bottom: 1px solid black;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.password:hover {
+  color: chocolate;
+  border-bottom: 1px solid rgb(197, 90, 13);
+}
+#eye {
+  font-size: 24px;
+  padding-left: 100px;
+}
+#eye:hover{
+  color: blue;
+}
+.btn {
+  width: 180px;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+  margin: 70px auto;
+  padding-top: 10px;
+  text-align: center;
+  background-color: rgb(72, 239, 239);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn:hover {
+  color: chocolate;
+  background-color: black;
+}
+.forgot {
+  color: aqua;
+  cursor: pointer;
+  margin-top: 70px;
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.forgot:hover {
+  color: chocolate;
+}
