@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&family=Special+Elite&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 300px;
+  color: white;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  background-image: url(./imgs/nav_image.jpg);
+}
+.navbar {
+  width: 80%;
+  height: 40px;
+  display: flex;
+  cursor: pointer;
+  margin: 0px auto;
+  align-items: center;
+  justify-content: center;
+}
+.nav {
+  padding: 0px 80px;
+}
+.nav:hover {
+  color: rgb(188, 140, 16);
+}
+.title {
+  display: flex;
+  font-size: 60px;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-family: "Special Elite", cursive;
+}
+.login {
+  width: 250px;
+  height: 30px;
+  display: flex;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 28rem;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid aqua;
+}
+.login:hover {
+  background-color: chocolate;
+}
+.image {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 38px;
+  border-radius: 50%;
+  margin-left: 42rem;
+  background-color: transparent;
+  border: 3px solid rgb(44, 41, 41);
+}
+.image:hover {
+  background-color: chocolate;
+}
+
+.header {
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0px 40px 0px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Special Elite", cursive;
+}
+.text {
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  border-bottom: 1px solid black;
+  justify-content: space-around;
+}
+.btn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: aqua;
+}
+.btn:hover {
+  color: black;
+  background-color: chocolate;
+}
+.border {
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(76, 179, 179);
+}
+.name {
+  color: white;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Special Elite", cursive;
+}
+.icons {
+  display: flex;
+  color: white;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+i {
+  margin: 10px;
+}
+i:hover {
+  color: rgb(188, 140, 16);
+}

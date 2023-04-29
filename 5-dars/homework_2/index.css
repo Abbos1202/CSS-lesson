@@ -1,0 +1,51 @@
+.container {
+    gap: 6rem;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.box {
+    width: 80%;
+    height: 80px;
+    display: flex;
+    color: white;
+    align-items: center;
+    background-color: black;
+    justify-content: space-around;
+}
+.title {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav1{
+    margin-left: 30px;
+}
+.nav2{
+    margin-left: 30px;
+}
+.nav3{
+    margin-left: 30px;
+}
+
+.btn{
+    width: 90px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    margin: 0px 30px;
+    border-radius: 30px;
+    background-color: aqua;
+}
+.btn:hover{
+    color: black;
+    background-color: coral;
+    transition: 1s;
+}
