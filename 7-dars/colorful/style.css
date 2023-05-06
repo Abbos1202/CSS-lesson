@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.letter_1 {
+    top: 45%;
+    left: 40%;
+    z-index: 999;
+    color: blue;
+    font-size: 100px;
+    font-weight: 900;
+    position: absolute;
+    filter: opacity(80%);
+    transform: translate(-50%, -50%);
+}
+.letter_2 {
+    top: 45%;
+    left: 43.5%;
+    z-index: 999;
+    color: green;
+    font-size: 100px;
+    font-weight: 900;
+    position: absolute;
+    filter: opacity(80%);
+    transform: translate(-50%, -50%);
+}
+.letter_3 {
+    top: 45%;
+    left: 47.5%;
+    z-index: 999;
+    color: yellow;
+    font-size: 100px;
+    font-weight: 900;
+    position: absolute;
+    filter: opacity(80%);
+    transform: translate(-50%, -50%);
+}
+.letter_4 {
+    top: 45%;
+    left: 50.5%;
+    z-index: 999;
+    color: purple;
+    font-size: 100px;
+    font-weight: 900;
+    position: absolute;
+    filter: opacity(80%);
+    transform: translate(-50%, -50%);
+}
+.letter_5 {
+    top: 45%;
+    left: 55%;
+    z-index: 999;
+    font-size: 100px;
+    font-weight: 900;
+    position: absolute;
+    color: orangered;
+    filter: opacity(80%);
+    transform: translate(-50%, -50%);
+}
+.letter_6 {
+    top: 45%;
+    left: 59%;
+    z-index: 999;
+    font-size: 100px;
+    font-weight: 900;
+    position: absolute;
+    filter: opacity(80%);
+    color: rgb(229, 3, 105);
+    transform: translate(-50%, -50%);
+}
+.letter_7 {
+    top: 45%;
+    left: 63%;
+    z-index: 999;
+    color: blue;
+    font-size: 100px;
+    font-weight: 900;
+    position: absolute;
+    filter: opacity(80%);
+    transform: translate(-50%, -50%);
+}
+.letter_8 {
+    top: 45%;
+    left: 67%;
+    z-index: 999;
+    color: yellow;
+    font-size: 100px;
+    font-weight: 900;
+    position: absolute;
+    filter: opacity(80%);
+    transform: translate(-50%, -50%);
+}
